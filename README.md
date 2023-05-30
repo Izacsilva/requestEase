@@ -7,8 +7,8 @@ Facilidade de uso: O RequestEase foi projetado para ser amigável e de fácil us
 ### Mobilidade: 
 A aplicação é responsiva e pode ser acessada através de dispositivos móveis, permitindo que as requisições sejam feitas em qualquer lugar, a qualquer momento, sem a necessidade de papel e caneta.
 
-### Sustentabilidade: A
-o eliminar o uso de papel, o RequestEase contribui para a redução do desperdício e promove a sustentabilidade ambiental.
+### Sustentabilidade:
+Eliminar o uso de papel, o RequestEase contribui para a redução do desperdício e promove a sustentabilidade ambiental.
 
 ### Agilidade: 
 Com apenas alguns cliques, os usuários podem selecionar os produtos desejados, informar a quantidade e gerar uma requisição pronta para ser enviada, otimizando o tempo e facilitando o processo de gerenciamento de pedidos.
