@@ -1,7 +1,8 @@
 import './styles/css/main.css'
+import { Header } from './components/header/header.js';
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <h1>RequestEase!</h1>
+const appElement = document.querySelector('#app')
 
-`
+const headerComponent = Header();
+
+appElement.appendChild(headerComponent);
