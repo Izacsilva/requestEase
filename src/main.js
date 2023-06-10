@@ -1,8 +1,7 @@
 import './styles/css/main.css'
-import { Header } from './components/header/header.js';
+import  App  from './App';
 
-const appElement = document.querySelector('#app')
+const root = document.querySelector('#root')
 
-const headerComponent = Header();
+root.append(App())
 
-appElement.appendChild(headerComponent);
