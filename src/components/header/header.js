@@ -1,12 +1,8 @@
 export default function Header() {
     const header = document.createElement('header');
-    
-    header.style.width = "50px"
-    header.style.height = "50px"
-    header.style.backgroundColor = 'red';
 
     header.innerHTML = `
-        <h1>Hello App!</h1>
+        <img src="../assets/images/requestLogo.svg" alt="Logotipo de aplicativo requestEase">
     
     
     `
@@ -14,5 +10,7 @@ export default function Header() {
     return header;
 
 }
+
+
 
 
