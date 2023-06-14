@@ -9,24 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles/css/model.css">
 
     <title>requestEasy</title>
   </head>
   <body>
     <div id="root">
       <header>
-        <img src="./assets/images/requestLogo.svg" alt="Logotipo requestEasy">
+        <div class="container">
+          <img src="./assets/images/requestLogo.svg" alt="Logotipo requestEasy">
         <div class="search">
           <label for="" class="label__search">
-            <input type="search" name="" id="" class="input__search">
+            <input type="search" name="" id="" class="input__search" placeholder="Buscar produtos...">
           </label>
-          <button class="btn__search">buscar</button>
+          <button class="btn__search btn">buscar</button>
         </div>
         <div class="filter">
-          <button class="filter__btn">todos</button>
-          <button class="filter__btn">hortifrut</button>
-          <button class="filter__btn">secos</button>
-          <button class="filter__btn">frios</button>
+          <button class="filter__btn btn">todos</button>
+          <button class="filter__btn btn">hortifrut</button>
+          <button class="filter__btn btn">secos</button>
+          <button class="filter__btn btn">frios</button>
+        </div>
         </div>
       </header>
       <main class="productList">
