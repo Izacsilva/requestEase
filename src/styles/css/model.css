@@ -50,6 +50,15 @@
     font-weight: 600;
     color: #1E6732;
     background: #79D898;
+    margin: 0 4px;
+  }
+
+  .filter__btn:first-child {
+    margin-left: 16px;
+  }
+
+  .filter__btn:last-child {
+    margin-right: 16px;
   }
 
   .filter__btn.active {
@@ -64,6 +73,17 @@
     gap: 16px;
 
     
+  }
+
+  .filter {
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+    
+  }
+
+  .filter::-webkit-scrollbar {
+    width: 0;
   }
   
   .search .input__search {
