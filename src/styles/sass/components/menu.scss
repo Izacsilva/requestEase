@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    bottom: 0;
+
+    padding: 8px 0;
+  }
+
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .menu {
+    display: flex;
+
+  }

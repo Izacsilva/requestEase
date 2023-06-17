@@ -1,0 +1,41 @@
+.listProduct {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    width: 100%;
+
+    margin-top: 212px;
+  }
+
+  .product {
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 8px 12px;
+
+    
+  }
+
+  .product__info {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .product__icon {
+    width: 30%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .product__icon img {
+    width: 22px;
+  }

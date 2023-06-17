@@ -12,3 +12,32 @@ a {
     font-size: 62.5%;
 }
 
+
+body {
+    background: #F7F4ED;
+  }
+  
+  header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    /* background: gray; */
+
+    position: fixed;
+
+    background: #F7F4ED;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  main img {
+    width: 96px;
+  }
+
+  main {
+    overflow: hidden;
+    
+    top: 0;
+  }
