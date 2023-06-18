@@ -75,7 +75,7 @@ header {
   width: 100vw;
   display: flex;
   justify-content: center;
-  /* background: gray; */
+  align-items: center;
   position: fixed;
   background: #F7F4ED;
 }
@@ -88,9 +88,8 @@ main img {
   width: 96px;
 }
 
-main {
-  overflow: hidden;
-  top: 0;
+.root {
+  margin: 0 auto;
 }
 
 .headerLogo {
@@ -171,13 +170,13 @@ header .container {
 .container {
   width: 100%;
   padding: 0 18px;
+  margin: 0 auto;
 }
 
 .listProduct {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  width: 100%;
   margin-top: 212px;
 }
 

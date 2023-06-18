@@ -21,8 +21,8 @@ body {
     width: 100vw;
     display: flex;
     justify-content: center;
-    /* background: gray; */
 
+    align-items: center;
     position: fixed;
 
     background: #F7F4ED;
@@ -36,8 +36,7 @@ body {
     width: 96px;
   }
 
-  main {
-    overflow: hidden;
-    
-    top: 0;
+  .root {
+    margin: 0 auto;
   }
+
