@@ -82,28 +82,46 @@ main img {
 #root {
   width: 100vw;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container {
   width: 90%;
-  margin: 0 auto;
 }
 
 header {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  position: fixed;
   background: #F7F4ED;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  width: 100%;
+  padding-bottom: 1.2rem;
+  position: fixed;
 }
-
-.headerLogo {
+header .headerLogo {
   margin: 32px 0 8px;
 }
-
-.search {
-  max-width: calc(100% - 32px);
+header .search {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  gap: 16px;
+}
+header .search .input__search {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+}
+header .search .btn__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
 }
 
 .btn {
@@ -113,64 +131,37 @@ header {
   background: #1E6732;
 }
 
-.btn__search {
+.filter {
+  width: 100vw;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
+  overflow-x: scroll;
 }
-
-.filter__btn {
+.filter .filter__btn {
   padding: 8px 32px;
   font-weight: 600;
   color: #1E6732;
   background: #79D898;
   margin: 0 4px;
 }
-
-.filter__btn:first-child {
+.filter .filter__btn:first-child {
   margin-left: 16px;
 }
-
-.filter__btn:last-child {
+.filter .filter__btn:last-child {
   margin-right: 16px;
 }
-
-.filter__btn.active {
+.filter .filter__btn.active {
   color: white;
   background: #1E6732;
 }
-
-.search {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 50px;
-  gap: 16px;
-}
-
-.filter {
-  width: 100vw;
-  display: flex;
-  overflow-x: scroll;
-}
-
 .filter::-webkit-scrollbar {
   width: 0;
-}
-
-.search .input__search {
-  width: 100%;
-  padding: 12px;
-  border: none;
-  border-radius: 8px;
-  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
 }
 
 .listProduct {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  margin-top: 212px;
+  margin-top: 21rem;
 }
 
 .product {
