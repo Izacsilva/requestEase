@@ -55,6 +55,10 @@ table {
   border-spacing: 0;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 a {
   color: black;
   text-decoration: none;
@@ -63,20 +67,7 @@ a:hover {
   text-decoration: underline;
 }
 
-:root {
-  font-size: 62.5%;
-}
-
 body {
-  background: #F7F4ED;
-}
-
-header {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
   background: #F7F4ED;
 }
 
@@ -88,8 +79,23 @@ main img {
   width: 96px;
 }
 
-.root {
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
   margin: 0 auto;
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: #F7F4ED;
 }
 
 .headerLogo {
@@ -160,19 +166,6 @@ main img {
   filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.1));
 }
 
-header .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-}
-
-.container {
-  width: 100%;
-  padding: 0 18px;
-  margin: 0 auto;
-}
-
 .listProduct {
   display: flex;
   flex-direction: column;
@@ -224,3 +217,5 @@ footer .container {
 .menu {
   display: flex;
 }
+
+/*# sourceMappingURL=main.css.map */

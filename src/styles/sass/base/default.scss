@@ -8,25 +8,11 @@ a {
 
 }
 
-:root {
-    font-size: 62.5%;
-}
-
-
 body {
     background: #F7F4ED;
   }
   
-  header {
-    width: 100vw;
-    display: flex;
-    justify-content: center;
 
-    align-items: center;
-    position: fixed;
-
-    background: #F7F4ED;
-  }
 
   li {
     list-style: none;
@@ -36,7 +22,4 @@ body {
     width: 96px;
   }
 
-  .root {
-    margin: 0 auto;
-  }
 
