@@ -1,3 +1,5 @@
+import ModalRequest from "./modal-request/modalRequest";
+
 export default function Main() {
     const main = document.createElement('main');
 
@@ -20,24 +22,16 @@ export default function Main() {
     
     `
 
-    
-
-    
-
     main.innerHTML = `
-    <main>
+
         <ul class="listProduct">
         ${item}
         ${item}
-        ${item}
-        ${item}
-        ${item}
-        ${item}
         </ul>
-      </main>
     
     
     `
+    main.append(ModalRequest())
 main.setAttribute("class", "container")
 
     return main;

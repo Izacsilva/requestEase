@@ -75,10 +75,6 @@ li {
   list-style: none;
 }
 
-main img {
-  width: 96px;
-}
-
 #root {
   width: 100vw;
   height: 100vh;
@@ -171,6 +167,9 @@ header .search .btn__search {
   justify-content: space-between;
   padding: 8px 12px;
 }
+.product .product__img {
+  width: 40%;
+}
 
 .product__info {
   width: 70%;
@@ -191,6 +190,19 @@ header .search .btn__search {
   width: 22px;
 }
 
+.modal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal .modal__imgBox {
+  width: 90%;
+}
+.modal .modal__imgBox .product__img {
+  width: inherit;
+}
+
 .menu {
   width: 100%;
   background: #fff;
@@ -204,5 +216,3 @@ header .search .btn__search {
   align-items: center;
   margin: 0 auto;
 }
-
-/*# sourceMappingURL=main.css.map */
