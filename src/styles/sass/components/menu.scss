@@ -1,19 +1,15 @@
-footer {
+.menu {
     width: 100%;
     background: #fff;
     position: fixed;
     bottom: 0;
 
     padding: 8px 0;
-  }
 
-  footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-
-  .menu {
-    display: flex;
-
-  }
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+    }
+}
