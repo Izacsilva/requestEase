@@ -1,0 +1,32 @@
+.listProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 21rem; }
+  .listProduct .product {
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px; }
+    .listProduct .product .product__img {
+      max-width: 100px;
+      object-fit: cover; }
+
+.product__info {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  gap: 16px; }
+
+.product__icon {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; }
+
+.product__icon img {
+  width: 22px; }
+
+/*# sourceMappingURL=list-products.css.map */

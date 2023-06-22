@@ -4,23 +4,25 @@
     gap: 16px;
 
     margin-top: 21rem;
-  }
 
-  .product {
-    background: white;
-    border-radius: 8px;
-    display: flex;
-    
-    justify-content: space-between;
-    padding: 8px 12px;
 
-    
-    .product__img {
-      width: 40%;
+    .product {
+      background: white;
+      border-radius: 8px;
+      display: flex;
+      
+      justify-content: space-between;
+      padding: 8px 12px;
+  
+      
+      .product__img {
+        max-width: 100px;
+        object-fit: cover;
+  
+      }
+      
     }
-    
   }
-
 
   .product__info {
     width: 70%;

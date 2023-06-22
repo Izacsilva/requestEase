@@ -1,3 +1,7 @@
+@import '../utils/variable.scss';
+
+
+
 header {
   align-items: center;
   background: #F7F4ED;
@@ -47,7 +51,7 @@ header {
   border-radius: 8px;
   
   color: white;
-  background: #1E6732;
+  background: $primary-color;
 
 }
 

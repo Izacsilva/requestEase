@@ -1,14 +1,12 @@
 .modal {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    .modal__imgBox {
-        width: 90%;
-        .product__img {
-            width: inherit;
-        }
+    
+
+    .product__img {
+        width: 250px;
     }
 
     

@@ -6,6 +6,10 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+:root {
+  font-size: 62.5%;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,17 +50,13 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: "";
+  content: '';
   content: none;
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-:root {
-  font-size: 62.5%;
 }
 
 a {
@@ -159,16 +159,16 @@ header .search .btn__search {
   gap: 16px;
   margin-top: 21rem;
 }
-
-.product {
+.listProduct .product {
   background: white;
   border-radius: 8px;
   display: flex;
   justify-content: space-between;
   padding: 8px 12px;
 }
-.product .product__img {
-  width: 40%;
+.listProduct .product .product__img {
+  max-width: 100px;
+  object-fit: cover;
 }
 
 .product__info {
@@ -191,16 +191,12 @@ header .search .btn__search {
 }
 
 .modal {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.modal .modal__imgBox {
-  width: 90%;
-}
-.modal .modal__imgBox .product__img {
-  width: inherit;
+.modal .product__img {
+  width: 250px;
 }
 
 .menu {
