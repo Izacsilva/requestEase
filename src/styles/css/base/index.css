@@ -4,10 +4,16 @@ a {
   a:hover {
     text-decoration: underline; }
 
+body, html {
+  height: 100%; }
+
 body {
   background: #F7F4ED; }
 
 li {
   list-style: none; }
+
+.modal img {
+  width: 96px; }
 
 /*# sourceMappingURL=index.css.map */

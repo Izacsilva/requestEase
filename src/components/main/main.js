@@ -26,13 +26,12 @@ export default function Main() {
 
         <ul class="listProduct">
         ${item}
-        ${item}
         </ul>
     
     
     `
     main.append(ModalRequest())
-main.setAttribute("class", "container")
+    main.setAttribute("class", "container")
 
     return main;
 

@@ -1,8 +1,5 @@
 .modal {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .modal .product__img {
-    width: 250px; }
+  flex-direction: column; }
 
 /*# sourceMappingURL=modal.css.map */

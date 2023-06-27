@@ -1,13 +1,14 @@
 .modal {
     display: flex;
     flex-direction: column;
-    align-items: center;
+ 
+}
 
-    
+.modal__imgBox {
+    width: 375px;
 
     .product__img {
-        width: 250px;
-    }
 
-    
+        max-width: 338px;
+    }
 }

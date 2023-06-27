@@ -15,12 +15,12 @@ export default function ModalRequest() {
         <button class="selectQuantity__btn plus btn">&#x002B</button>
       </div>
       <div class="confirmQuantity">
-        <button class="confirmQuantity__btn">confirmar</button>
+        <button class="confirmQuantity__btn btn">confirmar</button>
       </div>
     </form>
     `
 
-    modal.setAttribute('class', 'modal container')
+    modal.setAttribute('class', 'modal')
 
     return modal
 }

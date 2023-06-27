@@ -1,12 +1,11 @@
 #root {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center; }
 
 .container {
-  width: 90%; }
+  width: 90%;
+  margin: 0 auto; }
 
 header {
   align-items: center;
@@ -95,10 +94,7 @@ header {
 
 .modal {
   display: flex;
-  flex-direction: column;
-  align-items: center; }
-  .modal .product__img {
-    width: 250px; }
+  flex-direction: column; }
 
 .menu {
   width: 100%;

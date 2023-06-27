@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,MAAO;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EAInB,oBAAc;IACV,KAAK,EAAE,KAAK",
+"mappings": "AAAA,MAAO;EACH,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM",
 "sources": ["../../sass/components/modal.scss"],
 "names": [],
 "file": "modal.css"
