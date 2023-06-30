@@ -1,5 +1,8 @@
 .btn {
+    color: white;
     border: none;
     background: #1E6732;
     border-radius: 0.8rem;
+    height: 4.0rem;
+    padding: 1.6rem;
 }

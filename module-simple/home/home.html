@@ -8,7 +8,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -32,7 +32,7 @@
     
             </div>
             <div class="searchWraper">
-                <input type="search" name="searchProduct" id="searchProduct">
+                <input type="search" name="searchProduct" id="searchProduct" class="search__input" placeholder="Buscar produtos...">
                 <button type="button" class="btn search__btn">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M9 17C13.4183 17 17 13.4183 17 9C17 4.58172 13.4183 1 9 1C4.58172 1 1 4.58172 1 9C1 13.4183 4.58172 17 9 17Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -42,10 +42,10 @@
                 </button>
             </div>
             <div class="filterWraper">
-                <button type="button" class="filter">todos</button>
-                <button type="button" class="filter">frios</button>
-                <button type="button" class="filter">hortifrut</button>
-                <button type="button" class="filter">secos</button>
+                <button type="button" class="filter btn">todos</button>
+                <button type="button" class="filter btn">frios</button>
+                <button type="button" class="filter btn">hortifrut</button>
+                <button type="button" class="filter btn">secos</button>
             </div>
         </header>
     </div>
