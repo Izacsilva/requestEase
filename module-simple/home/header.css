@@ -1,10 +1,10 @@
 .header {
-    background: #8a6a1f;
     display: grid;
+    gap: 1.8rem;
+    justify-items: center;
+    margin: 2.4rem 0;
     
 
-    justify-items: center;
-    gap: 3.2rem;
 }
 
 .searchWraper {

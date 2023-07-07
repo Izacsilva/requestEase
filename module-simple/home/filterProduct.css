@@ -11,5 +11,24 @@
             background: #79D898;
             margin: 0 4px;
 
+
+            &:first-child {
+                margin-left: 2.4rem;
+              }
+          
+              &:last-child {
+                margin-right: 2.4rem;
+              }
+
         }
+
+        .filter.active {
+            color: white;
+            background: #1E6732;
+          }
+        
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+          
 }
