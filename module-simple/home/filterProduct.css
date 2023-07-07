@@ -1,0 +1,15 @@
+.filterWraper {
+    width: 100vw;
+    display: flex;
+    overflow-x: scroll;
+
+        .filter {
+            padding: 8px 32px;
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #1E6732;
+            background: #79D898;
+            margin: 0 4px;
+
+        }
+}
